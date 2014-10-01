@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceInfo xmlns="http://www.ilsp.gr/META-XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ilsp.gr/META-XMLSchema http://metashare.ilsp.gr/META-XMLSchema/v3.0/META-SHARE-Resource.xsd">
+    <identificationInfo>
+        <resourceName lang="et">EKI morfoloogiatööriistad</resourceName>
+        <resourceName lang="en">Morphological Toolset for Estonian</resourceName>
+        <description lang="et">Eesti Keele Instituudi reeglipõhine morfoloogiatööriistade komplekt sisaldab endas eraldi kasutatavaid mooduleid silbitamise, tüübituvastuse, morfoloogilise analüüsi ja sünteesi kohta.</description>
+        <description lang="en">Rule-based morphological toolset for Estonian is developed at Institute of the Estonian Language. It includes separately usable modules for declination type detection, syllabification, morphological analysis and synthesis.</description>
+        <url>http://artur.eki.ee/morf/</url>
+        <metaShareId>NOT_DEFINED_FOR_V2</metaShareId>
+        <identifier>http://hdl.handle.net/11297/3-00-0000-0000-0000-0002-1</identifier>
+    </identificationInfo>
+    <distributionInfo>
+        <availability>available-unrestrictedUse</availability>
+        <licenceInfo>
+            <licence>BSD-style</licence>
+            <restrictionsOfUse>informLicensor</restrictionsOfUse>
+            <distributionAccessMedium>accessibleThroughInterface</distributionAccessMedium>
+            <distributionAccessMedium>downloadable</distributionAccessMedium>
+            <downloadLocation>http://eelex.eki.ee/pub/Install/ekiMorfo/ekiMorfoSetup.msi</downloadLocation>
+            <downloadLocation>ftp://ftp.eki.ee/pub/keeletehnoloogia/morfana/</downloadLocation>
+        </licenceInfo>
+    </distributionInfo>
+    <contactPerson>
+        <surname lang="en">Hein</surname>
+        <givenName lang="en">Indrek</givenName>
+        <communicationInfo>
+            <email>Indrek.Hein@eki.ee</email>
+        </communicationInfo>
+        <affiliation>
+            <organizationName lang="et">Eesti Keele Instituut</organizationName>
+            <organizationName lang="en">Institute of the Estonian Language</organizationName>
+            <communicationInfo>
+                <email>eki@eki.ee</email>
+                <url>http://portaal.eki.ee/</url>
+                <address>Roosikrantsi 6</address>
+                <zipCode>10119</zipCode>
+                <city>Tallinn</city>
+                <country>Estonia</country>
+                <telephoneNumber>+372 6177 500</telephoneNumber>
+                <faxNumber>+372 6177 550</faxNumber>
+            </communicationInfo>
+        </affiliation>
+    </contactPerson>
+    <metadataInfo>
+        <metadataCreationDate>2012-06-14</metadataCreationDate>
+        <metadataCreator>
+            <surname lang="en">Nurk</surname>
+            <givenName lang="en">Tõnis</givenName>
+            <communicationInfo>
+                <email>tonis@eki.ee</email>
+            </communicationInfo>
+            <affiliation>
+                <organizationName lang="et">Eesti Keele Instituut</organizationName>
+                <organizationName lang="en">Institute of the Estonian Language</organizationName>
+                <communicationInfo>
+                    <email>eki@eki.ee</email>
+                    <url>http://portaal.eki.ee/</url>
+                    <address>Roosikrantsi 6</address>
+                    <zipCode>10119</zipCode>
+                    <city>Tallinn</city>
+                    <country>Estonia</country>
+                    <telephoneNumber>+372 6177 500</telephoneNumber>
+                    <faxNumber>+372 6177 550</faxNumber>
+                </communicationInfo>
+            </affiliation>
+        </metadataCreator>
+        <metadataCreator>
+            <surname lang="et">Kahusk</surname>
+            <givenName lang="et">Neeme</givenName>
+            <sex>male</sex>
+            <communicationInfo>
+                <email>neeme.kahusk@ut.ee</email>
+            </communicationInfo>
+            <affiliation>
+                <organizationName lang="et">Tartu Ülikool</organizationName>
+                <organizationName lang="en">University of Tartu</organizationName>
+                <organizationShortName lang="en">UT</organizationShortName>
+                <departmentName lang="en">Institute of Computer Science</departmentName>
+                <communicationInfo>
+                    <email>info@ut.ee</email>
+                </communicationInfo>
+            </affiliation>
+        </metadataCreator>
+        <metadataLastDateUpdated>2014-03-26</metadataLastDateUpdated>
+        <revision>3</revision>
+    </metadataInfo>
+    <versionInfo>
+        <version>4.2</version>
+    </versionInfo>
+    <usageInfo>
+        <actualUseInfo>
+            <actualUse>humanUse</actualUse>
+            <useNLPSpecific>lemmatization</useNLPSpecific>
+            <useNLPSpecific>morphologicalAnalysis</useNLPSpecific>
+            <useNLPSpecific>posTagging</useNLPSpecific>
+        </actualUseInfo>
+        <actualUseInfo>
+            <actualUse>nlpApplications</actualUse>
+            <useNLPSpecific>lemmatization</useNLPSpecific>
+            <useNLPSpecific>morphologicalAnalysis</useNLPSpecific>
+            <useNLPSpecific>posTagging</useNLPSpecific>
+        </actualUseInfo>
+    </usageInfo>
+    <resourceComponentType>
+        <toolServiceInfo>
+            <resourceType>toolService</resourceType>
+            <toolServiceType>suiteOfTools</toolServiceType>
+            <languageDependent>true</languageDependent>
+            <inputInfo>
+                <mediaType>text</mediaType>
+                <modalityType>writtenLanguage</modalityType>
+                <languageName>Estonian</languageName>
+                <languageId>et</languageId>
+                <characterEncoding>windows-1257</characterEncoding>
+            </inputInfo>
+            <outputInfo>
+                <mediaType>text</mediaType>
+                <modalityType>writtenLanguage</modalityType>
+                <languageName>Estonian</languageName>
+                <languageId>et</languageId>
+                <characterEncoding>windows-1257</characterEncoding>
+            </outputInfo>
+            <toolServiceOperationInfo>
+                <operatingSystem>windows</operatingSystem>
+            </toolServiceOperationInfo>
+        </toolServiceInfo>
+    </resourceComponentType>
+</resourceInfo>

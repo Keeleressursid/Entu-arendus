@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceInfo xmlns="http://www.ilsp.gr/META-XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ilsp.gr/META-XMLSchema http://metashare.ilsp.gr/META-XMLSchema/v3.0/META-SHARE-Resource.xsd">
+    <identificationInfo>
+        <resourceName lang="en">Corpus of morphologically disambiguated Estonian texts</resourceName>
+        <description lang="en">Manually annotated corpus</description>
+        <resourceShortName lang="en">ESTMORFCORP</resourceShortName>
+        <url>http://www.cl.ut.ee/korpused/morfkorpus/index.php?lang=en</url>
+        <metaShareId>NOT_DEFINED_FOR_V2</metaShareId>
+        <identifier>http://hdl.handle.net/11297/1-00-0000-0000-0000-0002-511297/1-00-0000-0000-0000-0002-5</identifier>
+    </identificationInfo>
+    <distributionInfo>
+        <availability>available-restrictedUse</availability>
+        <licenceInfo>
+            <licence>CLARIN_ACA-NC</licence>
+            <restrictionsOfUse>academic-nonCommercialUse</restrictionsOfUse>
+            <restrictionsOfUse>attribution</restrictionsOfUse>
+            <distributionAccessMedium>downloadable</distributionAccessMedium>
+            <userNature>academic</userNature>
+        </licenceInfo>
+    </distributionInfo>
+    <contactPerson>
+        <surname lang="et">Muischnek</surname>
+        <givenName lang="et">Kadri</givenName>
+        <communicationInfo>
+            <email>korpus.info@ut.ee</email>
+        </communicationInfo>
+    </contactPerson>
+    <metadataInfo>
+        <metadataCreationDate>2011-12-31</metadataCreationDate>
+        <metadataCreator>
+            <surname lang="et">Kahusk</surname>
+            <givenName lang="et">Neeme</givenName>
+            <sex>male</sex>
+            <communicationInfo>
+                <email>neeme.kahusk@ut.ee</email>
+            </communicationInfo>
+            <affiliation>
+                <organizationName lang="et">Tartu Ülikool</organizationName>
+                <organizationName lang="en">University of Tartu</organizationName>
+                <organizationShortName lang="en">UT</organizationShortName>
+                <departmentName lang="en">Institute of Computer Science</departmentName>
+                <communicationInfo>
+                    <email>info@ut.ee</email>
+                </communicationInfo>
+            </affiliation>
+        </metadataCreator>
+        <metadataLanguageName>English</metadataLanguageName>
+        <metadataLanguageId>en</metadataLanguageId>
+        <metadataLastDateUpdated>2014-03-26</metadataLastDateUpdated>
+        <revision>7</revision>
+    </metadataInfo>
+    <resourceComponentType>
+        <corpusInfo>
+            <resourceType>corpus</resourceType>
+            <corpusMediaType>
+                <corpusTextInfo>
+                    <mediaType>text</mediaType>
+                    <lingualityInfo>
+                        <lingualityType>monolingual</lingualityType>
+                    </lingualityInfo>
+                    <languageInfo>
+                        <languageId>et</languageId>
+                        <languageName>Estonian</languageName>
+                        <languageScript>Latin</languageScript>
+                    </languageInfo>
+                    <sizeInfo>
+                        <size>300000</size>
+                        <sizeUnit>tokens</sizeUnit>
+                    </sizeInfo>
+                </corpusTextInfo>
+            </corpusMediaType>
+        </corpusInfo>
+    </resourceComponentType>
+</resourceInfo>

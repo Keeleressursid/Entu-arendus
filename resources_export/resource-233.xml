@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceInfo xmlns="http://www.ilsp.gr/META-XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ilsp.gr/META-XMLSchema http://metashare.ilsp.gr/META-XMLSchema/v3.0/META-SHARE-Resource.xsd">
+    <identificationInfo>
+        <resourceName lang="en">Semantically disambiguated corpus of Estonian</resourceName>
+        <description lang="en">Raw text corpus. Resource for building Estonian Framenet</description>
+        <metaShareId>NOT_DEFINED_FOR_V2</metaShareId>
+    </identificationInfo>
+    <distributionInfo>
+        <availability>available-restrictedUse</availability>
+        <licenceInfo>
+            <licence>CLARIN_ACA-NC</licence>
+            <restrictionsOfUse>academic-nonCommercialUse</restrictionsOfUse>
+            <restrictionsOfUse>attribution</restrictionsOfUse>
+            <distributionAccessMedium>downloadable</distributionAccessMedium>
+            <userNature>academic</userNature>
+        </licenceInfo>
+        <iprHolder>
+            <organizationInfo>
+                <organizationName lang="et">Tartu Ülikool</organizationName>
+                <organizationName lang="en">University of Tartu</organizationName>
+                <organizationShortName lang="et">UT</organizationShortName>
+                <communicationInfo>
+                    <email>neeme.kahusk@ut.ee</email>
+                </communicationInfo>
+            </organizationInfo>
+        </iprHolder>
+    </distributionInfo>
+    <contactPerson>
+        <surname lang="et">Kahusk</surname>
+        <givenName lang="et">Neeme</givenName>
+        <sex>male</sex>
+        <communicationInfo>
+            <email>neeme.kahusk@ut.ee</email>
+        </communicationInfo>
+        <affiliation>
+            <organizationName lang="et">Tartu Ülikool</organizationName>
+            <organizationName lang="en">University of Tartu</organizationName>
+            <organizationShortName lang="en">UT</organizationShortName>
+            <departmentName lang="en">Institute of Computer Science</departmentName>
+            <communicationInfo>
+                <email>info@ut.ee</email>
+            </communicationInfo>
+        </affiliation>
+    </contactPerson>
+    <metadataInfo>
+        <metadataCreationDate>2011-12-31</metadataCreationDate>
+        <metadataLastDateUpdated>2013-01-09</metadataLastDateUpdated>
+    </metadataInfo>
+    <usageInfo>
+        <foreseenUseInfo>
+            <foreseenUse>humanUse</foreseenUse>
+        </foreseenUseInfo>
+        <actualUseInfo>
+            <actualUse>humanUse</actualUse>
+        </actualUseInfo>
+    </usageInfo>
+    <resourceCreationInfo>
+        <fundingProject>
+            <projectName lang="et">Riiklik programm &quot;Eesti keele keeletehnoloogiline tugi (2006-2010)&quot; </projectName>
+            <projectName lang="en">National Programme for Estonian Language Technology (2006-2010) </projectName>
+            <projectShortName lang="et">EKKTT</projectShortName>
+            <projectShortName lang="en">EKKTT</projectShortName>
+            <url>http://www.keeletehnoloogia.ee/ekktt-1</url>
+            <fundingType>nationalFunds</fundingType>
+            <fundingCountry>Estonia</fundingCountry>
+            <projectStartDate>2006-06-26</projectStartDate>
+            <projectEndDate>2010-12-31</projectEndDate>
+        </fundingProject>
+    </resourceCreationInfo>
+    <resourceComponentType>
+        <corpusInfo>
+            <resourceType>corpus</resourceType>
+            <corpusMediaType>
+                <corpusTextInfo>
+                    <mediaType>text</mediaType>
+                    <lingualityInfo>
+                        <lingualityType>monolingual</lingualityType>
+                    </lingualityInfo>
+                    <languageInfo>
+                        <languageId>et</languageId>
+                        <languageName>Estonian</languageName>
+                    </languageInfo>
+                    <modalityInfo>
+                        <modalityType>writtenLanguage</modalityType>
+                    </modalityInfo>
+                    <sizeInfo>
+                        <size>500000</size>
+                        <sizeUnit>words</sizeUnit>
+                    </sizeInfo>
+                    <annotationInfo>
+                        <annotationType>lemmatization</annotationType>
+                    </annotationInfo>
+                    <annotationInfo>
+                        <annotationType>morphosyntacticAnnotation-posTagging</annotationType>
+                    </annotationInfo>
+                    <annotationInfo>
+                        <annotationType>semanticAnnotation</annotationType>
+                    </annotationInfo>
+                </corpusTextInfo>
+            </corpusMediaType>
+        </corpusInfo>
+    </resourceComponentType>
+</resourceInfo>
