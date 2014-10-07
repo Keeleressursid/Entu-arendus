@@ -4,19 +4,19 @@
 
 ### Entity
 
-All objects are treated identically in Entu. In our jargon we call them *entities* and they have *proerties*. Every entity has its type defiened by *entity-definition* and its properties by *property-definition*, which are also entities. Therefore the fundamental objects in Entu are entity-definitions of entity-definition and property-definition. You better do not delete these entities.
+All objects are treated identically in Entu. In our jargon we call them *entities* and they have *properties*. Every entity has its type defined by *entity-definition* and its properties by *property-definition*, which are also entities. Therefore the fundamental objects in Entu are entity-definitions of entity-definition and property-definition. You better do not delete these entities.
 
 ### Hierarchy
 
-Entities could be arranged hierarchically by parent-child relationship, i.e. Folder type entity could be parent of Folder or File type of entities. Circular relations are allowed and its up to configuration and user interface to deal with it.
+Entities could be arranged hierarchically by parent-child relationships, i.e. Folder type entity could be parent of Folder or File type of entities. Circular relations are allowed and its up to configuration and user interface to deal with it.
 
 - Every entity-definition could have its 'allowed-child(s)' defined.
-- Some entities could have its own 'allowed-child(s)' defined in which case it owerrides 'allowed-childs' from definition.
+- Some entities could have its own 'allowed-child(s)' defined in which case it overrides 'allowed-childs' from definition.
 - Every entity-definition could have its 'default-parent(s)' defined in which case all entities of that kind are assigned as childs to these parent(s)
 
 ### Visibility
 
-Entities could have different visibility
+Entities can have different visibility
 
 - Public  
   Public properties of entity are potentially accessible (view-only) through public API. Either via "public view" or any 3rd-party application utilizing API.
@@ -43,9 +43,9 @@ Any entity could have any number of access rights on another entity
 
 ### Propagation
 
-When entity is assigned as child under another entity, then  
-- its visibility is compared to visibility of parent and more restrictive one is applied
-- all access rights are propagated from parent entity
+When an entity is assigned as child under another entity, then  
+- its visibility is compared with the visibility of the parent and the more restrictive one is applied
+- all access rights are propagated from the parent entity
 
 ### Access Rights
 
@@ -101,6 +101,6 @@ To achive desired result there are multiple of ways to configure the system. One
 6. Add "Contracts with Employees" as child to "Book-keeper Role"
 7. Add all current bookkeepers as 'viewers' to "Book-keeper Role"
 
-Now 'viewer' rights get propagated through child folders to all invoices and contracts and if new document is added to any of those folders, all book-keepers get immediate access.
+Now 'viewer' rights get propagated through child folders to all invoices and contracts and if new documents are added to any of those folders, all book-keepers get immediate access.
 
 
