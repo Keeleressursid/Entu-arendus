@@ -1,0 +1,31 @@
+{
+  "name": "CMDI_importer",
+  "version": "0.0.1",
+  "description": "EKRK resource import environment",
+  "author": "Mihkel Putrinš <michelek@ut.ee>",
+  "contributors": [{
+    "name": "Argo Roots",
+    "email": "argo@roots.ee"
+  }],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Keeleressursid/Entu-arendus"
+  },
+  "bugs": {
+    "url": "https://github.com/Keeleressursid/Entu-arendus/issues"
+  },
+  "keywords": [
+    "metashare",
+    "cmdi",
+    "clarin"
+  ],
+  "dependencies": {
+    "xml2js": "*"
+  },
+  "devDependencies": {},
+  "private": true,
+  "license": "CC-SA"
+}
