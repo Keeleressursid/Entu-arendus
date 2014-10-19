@@ -27,14 +27,17 @@ var EntuLib = new EntuLib(ENTU_USER_ID, ENTU_USER_KEY, ENTU_URL)
 console.log ('hello!')
 // EntuLib.findEntity(console.log, 'person', '', 10)
 EntuLib.getEntity(function (result) {
-  if (result.error !== undefined)
-    throw new Error("Can't find myself!")
-  // console.log(result)
+  // if (result.error !== undefined) throw new Error("getEntity: Can't find myself!")
+  console.log('getEntity: ' + util.inspect(result,{depth:null}))
 }, 610)
 
-EntuLib.listChilds(function (result) {
-  if (result.error !== undefined)
-    throw new Error("Can't find myself!")
-  console.log(util.inspect(result,{depth:null}))
-}, ENTU_USER_ID)
+EntuLib.getChilds(function (result) {
+  // if (result.error !== undefined) throw new Error("getChilds: Can't find myself!")
+  console.log('getChilds: ' + util.inspect(result,{depth:null}))
+}, 610)
+
+EntuLib.getReferrals(function (result) {
+  // if (result.error !== undefined) throw new Error("getReferrals: Can't find myself!")
+  console.log('getReferrals' + util.inspect(result,{depth:null}))
+}, 682)
 
