@@ -28,11 +28,3 @@ node_modules
 .lock-wscript
 
 *.pem
-
-*.pem
-
-*.pem
-
-node apps/cert.pem
-
-node apps/key.pem
