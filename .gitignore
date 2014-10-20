@@ -26,3 +26,13 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+*.pem
+
+*.pem
+
+*.pem
+
+node apps/cert.pem
+
+node apps/key.pem
