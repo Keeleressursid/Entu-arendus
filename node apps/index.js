@@ -65,18 +65,18 @@ var a = https.createServer(options, function (req, res) {
 
 
 // EntuLib.findEntity(console.log, 'person', '', 10)
-EntuLib.getEntity(function (result) {
+EntuLib.getEntity(610, function (result) {
   // if (result.error !== undefined) throw new Error("getEntity: Can't find myself!")
   // console.log('getEntity: ' + util.inspect(result,{depth:null}))
-}, 610)
+})
 
-EntuLib.getChilds(function (result) {
+EntuLib.getChilds(610, function (result) {
   // if (result.error !== undefined) throw new Error("getChilds: Can't find myself!")
   // console.log('getChilds: ' + util.inspect(result,{depth:null}))
-}, 610)
+})
 
-EntuLib.getReferrals(function (result) {
+EntuLib.getReferrals(682, function (result) {
   // if (result.error !== undefined) throw new Error("getReferrals: Can't find myself!")
   // console.log('getReferrals' + util.inspect(result,{depth:null}))
-}, 682)
+})
 
